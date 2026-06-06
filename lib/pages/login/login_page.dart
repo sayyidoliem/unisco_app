@@ -115,11 +115,11 @@ class _LoginPageState extends State<LoginPage> {
               const SizedBox(height: 78),
               ElevatedButton(
                 style: ButtonStyle(
-                  minimumSize: MaterialStateProperty.all(const Size(240, 55)),
-                  backgroundColor: MaterialStateProperty.all(
+                  minimumSize: WidgetStateProperty.all(const Size(240, 55)),
+                  backgroundColor: WidgetStateProperty.all(
                     Theme.of(context).colorScheme.primary,
                   ),
-                  overlayColor: MaterialStateProperty.all(
+                  overlayColor: WidgetStateProperty.all(
                     Theme.of(context).colorScheme.inversePrimary,
                   ),
                 ),

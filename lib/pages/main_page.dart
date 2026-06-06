@@ -25,9 +25,9 @@ class _MainPageState extends State<MainPage> {
             : Layouts.guestLayout[positionNotifier.currentPosition],
         bottomNavigationBar: NavigationBarTheme(
           data: NavigationBarThemeData(
-            indicatorColor: Theme.of(context).colorScheme.background,
+            indicatorColor: Theme.of(context).colorScheme.surface,
             labelBehavior: NavigationDestinationLabelBehavior.alwaysHide,
-            surfaceTintColor: Theme.of(context).backgroundColor,
+            surfaceTintColor: Theme.of(context).colorScheme.surface,
           ),
           child: isUNISCO ? const UNISCONavBar() : const GuestNavBar(),
         ),

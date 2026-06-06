@@ -19,7 +19,7 @@ class ProfilePage extends StatelessWidget {
                   backgroundColor: Colors.black,
                   radius: 120,
                   child: CircleAvatar(
-                    backgroundColor: Theme.of(context).colorScheme.background,
+                    backgroundColor: Theme.of(context).colorScheme.surface,
                     radius: 115,
                     child: Icon(
                       CupertinoIcons.person_fill,
@@ -43,11 +43,11 @@ class ProfilePage extends StatelessWidget {
             const SizedBox(height: 45),
             ElevatedButton(
               style: ButtonStyle(
-                minimumSize: MaterialStateProperty.all(const Size(200, 64)),
-                backgroundColor: MaterialStateProperty.all(
+                minimumSize: WidgetStateProperty.all(const Size(200, 64)),
+                backgroundColor: WidgetStateProperty.all(
                   Theme.of(context).colorScheme.primary,
                 ),
-                overlayColor: MaterialStateProperty.all(
+                overlayColor: WidgetStateProperty.all(
                   Theme.of(context).colorScheme.inversePrimary,
                 ),
               ),

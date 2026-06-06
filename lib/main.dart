@@ -1,6 +1,5 @@
 import 'package:flutter/cupertino.dart';
 import 'package:provider/provider.dart';
-import 'package:unisco_app/pages/main_page.dart';
 import 'package:unisco_app/provider/app_provider.dart';
 import 'package:unisco_app/routes/app_routes.dart';
 import 'package:unisco_app/theme/color_extractor.dart';
